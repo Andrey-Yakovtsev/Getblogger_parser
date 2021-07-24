@@ -14,8 +14,8 @@ sleep(1)
 email = browser.find_element_by_xpath('//*[@id="modal-signin"]/div[2]/div/div/div[2]/form/div[1]/input')
 password = browser.find_element_by_xpath('//*[@id="modal-signin"]/div[2]/div/div/div[2]/form/div[2]/input')
 
-email.send_keys("and@proffbankrot.ru")
-password.send_keys("qepyrajav")
+email.send_keys("")
+password.send_keys("")
 
 login = browser.find_element_by_xpath('//*[@id="modal-signin"]/div[2]/div/div/div[2]/form/button')
 login.click()
